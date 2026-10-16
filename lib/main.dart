@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:wisata_candi/data/candi_data.dart';
+import 'package:wisata_candi/screens/detail_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +16,11 @@ class MyApp extends StatelessWidget {
       title: 'Wisata Candi',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
       ),
-      home: const Home(title: 'Wisata Candi'),
+      home: DetailScreen(candi: candiList[0]),
     );
   }
+
+}
