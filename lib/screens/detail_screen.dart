@@ -200,8 +200,4 @@ class DetailScreen extends StatelessWidget {
       ),
     );
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0596c3e9ce52c8ea8c0a2c0abb13913dac1ceb94
