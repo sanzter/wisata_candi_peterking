@@ -3,6 +3,7 @@ import 'package:wisata_candi/screens/favorite_screen.dart';
 import 'package:wisata_candi/screens/home_screen.dart';
 import 'package:wisata_candi/screens/profile_screen.dart';
 import 'package:wisata_candi/screens/search_screen.dart';
+import 'package:wisata_candi/screens/sign_up_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,12 +22,13 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: MainScreen(),
+      // home: MainScreen(),
       // home: DetailScreen(candi: candiList[5]),
       // home: ProfileScreen(),
       // home: HomeScreen(),
       // home: SearchScreen(),
       // home: HomeScreen()
+      home: SignUpScreen(),
     );
   }
 }
